@@ -17,6 +17,7 @@ class Programmer(Employee,Coder):
 a = Employee()
 b = Programmer()
 print(a.company,b.company)
+# this shows programmer can use any method from employee coder and programmer itself this shows multiple inheritance
 b.show()
 b.printLanguage()
 b.showLanguage()
