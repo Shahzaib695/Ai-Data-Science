@@ -5,13 +5,15 @@ class Animal:
     def __init__(self,age):
         self.age = age # this is an instance attribute
 
-    # an instance emthod is a method which has self declared inside of its parameter because self clearly targets the location of an object or an instance so as soon as u write self inside of a function it becomes an isntance method 
+    # an instance method is a method which has self declared inside of its parameter because self clearly targets the location of an object or an instance so as soon as u write self inside of a function it becomes an isntance method 
     def instance_method(self):
         print("I am an insatnce method")
-    # self targets object while cls targets class attribute and just like self.age we can only call cls.variable names which are present below the class like for this we have age
+    # self targets object while cls targets class attribute and just like self.age we can only call cls.variable names which are present below the class like for this we have name
     @classmethod
     def class_method(cls):
         print("I am a class method")
+        # we cant print cls.age because its an instance attribute and is present in the constructor
+        print(f"Sample to print class variable {cls.name}")
     # a static method is just a simple function without any instance or class attribute
     @staticmethod
     def static_method():

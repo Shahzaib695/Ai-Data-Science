@@ -3,8 +3,7 @@ print(example[0]);
 # list in python are just like arrays i mean it can store any type of data in it 
 example[0] = "Mango";
 print(example[0]);
-# its index is same like string start from 0 we can add remove things in lists as they are mutable
-# unlike strings list can be changed 
+# its index is same like string start from 0 we can add remove things in lists as they are mutable unlike strings list can be changed 
 print(example[0:3])
 # unlike string it doesnot store in refernce memory it actually changes the whole list 
 # for example when we use string function it only stores temporarly keeping the string intact but in lists whole lists changes 

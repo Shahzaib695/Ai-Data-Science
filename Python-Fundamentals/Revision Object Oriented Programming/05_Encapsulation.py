@@ -37,13 +37,11 @@ class Factory4(Factory3):
 obj2 = Factory4()
 obj2.__show2()
 # see now its private
-
 # separate example demonstrating encapsulation with a student record
 class StudentRecord:
     def __init__(self, name, grade):
         self.name = name
         self.__grade = grade
-
     def update_grade(self, grade):
         if 0 <= grade <= 100:
             self.__grade = grade

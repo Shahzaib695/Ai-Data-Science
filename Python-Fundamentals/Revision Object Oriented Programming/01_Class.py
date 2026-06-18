@@ -1,6 +1,5 @@
 class Student:
     name = "Shahzaib" #variables defined inside the class are known as attributes
-
     def hello(self): #functions declared inside of the class are known as methods
         print("How are you ?")
     print("Hello i am being intialized")

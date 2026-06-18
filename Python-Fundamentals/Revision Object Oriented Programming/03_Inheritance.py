@@ -6,7 +6,7 @@ class FactoryKhi:
         print("I am an instance method inside of factory")
 # lets see how inheritance works
 class FactoryLhr(FactoryKhi):
-    pass
+    pass #its a thing like to pass the class without needing to write anything
 # now this method can access all the things insdie of the main class
 # obj = FactoryLhr()
 # print(obj.a)
@@ -38,7 +38,6 @@ class Example3(Example1,Example2):
 obj = Example3()
 print(obj.name1 ,obj.name2 ,obj.name3);
 # when inheriting the constructor function will be called of the first inherited class like for this Example1 constructor would be called 
-
 class MainFactory:
     def __init__(self,material,zips):
         self.material = material
