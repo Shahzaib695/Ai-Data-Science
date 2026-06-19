@@ -1,28 +1,39 @@
 # Python Fundamentals
 
-A comprehensive repository containing fundamental Python concepts and tutorials implemented through Jupyter Notebooks.
+A comprehensive repository containing fundamental Python concepts and tutorials implemented through Python scripts and Jupyter Notebooks.
 
 ## 📚 Overview
 
-This repository is dedicated to learning and understanding the core concepts of Python programming. It includes interactive Jupyter Notebooks that cover various fundamental topics with explanations, examples, and exercises.
+This repository is dedicated to learning and understanding the core concepts of Python programming. It includes organized examples, practice sets, and notebook-based assignments covering basic through intermediate topics.
 
-## 📂 Contents
+## 📂 Repository Structure
 
-The repository contains Jupyter Notebooks covering essential Python topics such as:
-- Data types and variables
-- Control flow (loops, conditionals)
-- Functions and modules
-- Object-oriented programming
-- File handling
-- Error handling and exceptions
-- And more...
+- `Python-Fundamentals/`
+  - Chapter folders for Python basics, strings, lists, dictionaries, loops, functions, file handling, and object-oriented programming
+  - Practice sets and sample projects such as the Snake, Water, Gun game
+  - Revision materials for object-oriented programming concepts
+- `SMIT Class/`
+  - Structured class work from SMIT
+  - Assignments and lecture notebooks organized by class number
+  - Contains the full set of work taught in the SMIT course
+
+## 🧠 Topics Covered
+
+This repository includes code examples and exercises for:
+- Variables and data types
+- Strings, lists, tuples, dictionaries, and sets
+- Conditional expressions and loops
+- Functions and recursion
+- File handling and text processing
+- Object-oriented programming, classes, inheritance, and special methods
+- Modular programming, comments, and package usage
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Python 3.x
-- Jupyter Notebook or JupyterLab
-- Required Python libraries (listed in individual notebooks)
+- Jupyter Notebook or JupyterLab for `.ipynb` files
+- Required Python libraries if specified in individual notebooks
 
 ### Installation
 
@@ -33,40 +44,33 @@ git clone https://github.com/Shahzaib695/Python-Fundamentals-.git
 
 2. Navigate to the repository:
 ```bash
-cd Python-Fundamentals-
+cd Ai-Data-Science
 ```
 
-3. Install Jupyter (if not already installed):
+3. Install Jupyter if needed:
 ```bash
 pip install jupyter
 ```
 
-4. Start Jupyter Notebook:
+4. Start Jupyter Notebook or JupyterLab:
 ```bash
 jupyter notebook
 ```
+```
 
-5. Open any `.ipynb` file to begin learning!
+5. Open any `.ipynb` or `.py` file to begin learning.
 
 ## 💡 How to Use
 
-1. Open the Jupyter Notebooks in this repository
-2. Read through the explanations and code examples
-3. Run the cells to see the output
-4. Modify the code and experiment with different approaches
-5. Complete any exercises or challenges included
-
-## 📖 Topics Covered
-
-Each notebook focuses on specific Python fundamentals and includes:
-- Clear explanations
-- Code examples
-- Practice exercises
-- Real-world applications
+1. Browse the chapter folders in `Python-Fundamentals/`
+2. Open notebooks and Python scripts to explore examples
+3. Run cells or execute scripts to see outputs
+4. Modify code to practice concepts
+5. Complete exercises and review SMIT class notebooks for structured coursework
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you'd like to add more topics, improve explanations, or fix any issues, feel free to open a pull request.
+Contributions are welcome! Add more examples, improve explanations, or fix issues by opening a pull request.
 
 ## 📝 License
 
@@ -75,10 +79,6 @@ This project is open source and available for educational purposes.
 ## 👤 Author
 
 [Shahzaib695](https://github.com/Shahzaib695)
-
-## 📧 Contact
-
-Feel free to reach out if you have any questions or suggestions!
 
 ---
 
