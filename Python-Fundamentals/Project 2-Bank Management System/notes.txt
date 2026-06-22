@@ -1,0 +1,6 @@
+Creating Bank Account
+Depositing Money
+Withdrawing Money
+Seeing details
+Editing Details
+Deleting The Account
