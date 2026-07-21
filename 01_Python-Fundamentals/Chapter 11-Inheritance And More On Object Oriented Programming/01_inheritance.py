@@ -8,6 +8,7 @@ class Employee:
 class Programmer(Employee):
     company = "ITC Infotech"
     def __init__(self, name, salary, language):
+        # super is used for calling the class variables from the parent class
         super().__init__(name, salary)
         self.language = language
     # commented this method because we are inheriting this from the employee class 
